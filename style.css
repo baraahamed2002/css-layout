@@ -1,0 +1,139 @@
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+main {
+  width: 70%;
+  margin-inline: auto;
+  margin-top: 10px;
+}
+header {
+  height: 100px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+}
+header img {
+  width: 400px;
+}
+
+.link {
+  display: flex;
+  
+}
+.link a{
+  padding-left: 15px ;
+  text-decoration: none;
+}
+h1 {
+  color: #00b39b;
+
+  margin: 1em;
+  font-weight: 2000;
+  letter-spacing: 3px;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+}
+
+.img {
+  width: 60%;
+  margin-inline: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 50px;
+}
+.p {
+  color: #46a99b;
+  width: 100%;
+  margin-inline: auto;
+  margin-top: 70px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.container {
+  margin-top: 12px;
+  padding: 10px;
+  border-radius: 13px;
+  display: flex;
+  justify-content: space-between;
+}
+.card {
+  width: 250px;
+  height: 300px;
+
+  border-radius: 12px;
+  margin-top: 50px;
+}
+.card h1 {
+  color: bisque;
+}
+.card img {
+  margin-inline: auto;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  width: 30px;
+}
+.card p {
+  color: bisque;
+  text-align: center;
+}
+
+.container1 {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.container1 H1 {
+  text-align: end;
+}
+.card1 {
+  width: 100px;
+  height: 100px;
+  border-radius: 12px;
+  margin-top: 50px;
+  display: flex;
+  flex-direction: column;
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+.fond {
+  margin-top: 10px;
+  padding: 5px;
+  border-radius: 3px;
+  display: flex;
+  justify-content: space-between;
+}
+.plan {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  background-image: url(2.jpg);
+  background-position: center;
+  background-size: cover;
+  padding-left: 5%;
+  padding-right: 5%;
+  box-sizing: border-box;
+  position: relative;
+}
+
+.green {
+  background-color: #00b39b;
+}
+.blue {
+  background-color: #3d83df;
+}
+
+.black {
+  background-color: #1b2734;
+}
